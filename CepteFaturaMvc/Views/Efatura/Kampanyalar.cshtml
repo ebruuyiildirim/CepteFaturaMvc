@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Kampanyalar";
+    Layout = "~/Views/Shread/_Layout.cshtml";
+}
+
+
+<div style="width:100%; background-size:cover;">
+    <img style="width :100%; margin-top:70px;" src="~/Content/assets/images/ceptefaturam tablo.jpg" alt="e-fatura" title="kampanya" />
+
+</div>
+
+<div style="color:black;" class="container">
+    <div class="kampanya-aciklama">
+        <h6 style="color:rgb(247, 141, 102);font-size:17px;margin-right:150%;font-weight:600;">Açıklamalar:</h6>
+    </div>
+    <div style="margin-bottom: 50px;" class="list">
+        <ul style="font-size: 15px;">
+            <li>- Fiyatlara KDV dahil değildir.</li>
+            <li>- Fiyatlar 1 yıllık sözleşme için geçerlidir.</li>
+            <li>- Fiyatlara saklama ücreti dahildir.</li>
+            <li>- Faturalandırma paket türüne göre aylık veya yıllık periyodlarla yapılmaktadır.</li>
+            <li>- Fatura adetleri üst limit olarak belirlenmiş olup limitlerin aşılması halinde ilave birim fiyat ile ücretlendirilir.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="section-title">   
+        <div class="text-center" style="margin-top:10px; margin-bottom:20px">
+            <h2 style="font-size: 26px; color: rgb(247, 141, 102)">SİZE ULAŞALIM</h2>
+        </div>
+
+    </div>
+    <center>
+        <form method="post" role="form" id="form" class="php-email-form col-lg-10">
+            <div class="row">
+                <div class="col-md-6 form-group ">
+                    <input type="text" name="ad" class="form-control" id="ad" style="color:#5786b4;border:2px solid #ced4da;" placeholder="Adınız Soyadınız:" data-rule="minlen:4" data-msg="Lütfen Boş Bırakmayınız." />
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" style="color:#5786b4;border:2px solid #ced4da;" placeholder="E-Mail Adresiniz:" data-rule="email" data-msg="Lütfen Boş Bırakmayınız." />
+                </div>
+            </div>
+
+            <div class="col-md-offset-4 mt-4 col-md-12">
+                <div class="text-center" style="margin-top:30px" ;color:"blue";><button type="button" class="btn btn-success">Gönder</button></div>
+            </div>
+        </form>
+    </center>
+
+    <div style="text-align:center; margin-top:50px;" class="row contact-info">
+        <div class="text-center" style="margin-top:10px; margin-bottom:20px">
+        </div>        
+    </div>
+</div>
